@@ -9,8 +9,8 @@ const calculateHash = async () => {
         }
         console.log(text)
   })
-
-    console.log(createHash('sha256').update(file).digest(file))
+    
+    console.log(createHash('sha256').update(file).digest('hex'))
 };
 
 await calculateHash();
