@@ -7,6 +7,7 @@ const read = async () => {
           return;
         }
         console.log(text)
-})}
+  })
+}
 
 await read();
