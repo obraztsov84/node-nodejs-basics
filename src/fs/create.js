@@ -11,10 +11,7 @@ const create = async () => {
     })
     fs.appendFile('src/fs/files/fresh.txt', 'I am fresh and young',(err) => {
         if (err) console.error(err)
-
     })
-
-
 };
 
 await create();
