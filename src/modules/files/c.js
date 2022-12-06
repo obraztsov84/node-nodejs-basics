@@ -1,1 +1,1 @@
-console.log('Hello from c.js!');
+export const c = () => console.log('Hello from c.js!');
